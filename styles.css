@@ -272,4 +272,25 @@ footer {
 
 .donation-container img:hover {
     transform: scale(1.05);
+}
+
+.upcoming-event {
+    background-color: rgba(155, 89, 182, 0.08);
+    border-left: none;
+    border: 2px solid #ff80ab;
+    position: relative;
+    overflow: hidden;
+}
+
+.upcoming-event::before {
+    background-color: #2ecc71;
+    width: 8px;
+}
+
+.upcoming-event h2 {
+    color: #9b59b6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 0px #ff80ab;
 } 
