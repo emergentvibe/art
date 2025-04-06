@@ -125,7 +125,7 @@ p {
     text-align: center;
 }
 
-.workshop-img, .artwork-img {
+.workshop-img, .artwork-img, .painting-img {
     max-width: 100%;
     border-radius: 8px;
     border: 3px solid #ff80ab;
@@ -133,8 +133,16 @@ p {
     transition: transform 0.3s ease;
 }
 
-.workshop-img:hover, .artwork-img:hover {
+.workshop-img:hover, .artwork-img:hover, .painting-img:hover {
     transform: scale(1.02);
+}
+
+.image-caption {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #9b59b6;
 }
 
 .contact-text {
